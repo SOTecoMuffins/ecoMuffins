@@ -37,7 +37,7 @@ namespace ecoMuffins
             }
 
             app.UseStaticFiles();
-
+            app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
