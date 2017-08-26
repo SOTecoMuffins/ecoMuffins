@@ -19,7 +19,8 @@ namespace ecoMuffins.Controllers
     {
         var model = new CarbonCalculationModel{
             Distance = 9901,
-            TransportType = JourneyType.Walk        };
+            TransportType = JourneyType.Walk
+        };
         return Json(model);
     }
 
