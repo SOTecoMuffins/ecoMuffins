@@ -7,7 +7,7 @@ namespace ecoMuffins.Services
     {
         public CarbonCalculationReturnModel CalculateCarbon(CarbonCalculation calc) 
         {
-            double carbonKg = new double();
+            double carbonKg;
             switch(calc.TransportType) 
             {
                 case JourneyType.Car:
