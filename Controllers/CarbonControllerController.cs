@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
+using ecoMuffins.Models;
 
 namespace ecoMuffins.Controllers
 {
-    public class HelloWorldController : Controller
+    public class CarbonControllerController : Controller
     {
         // 
         // GET: /HelloWorld/
@@ -16,9 +17,10 @@ namespace ecoMuffins.Controllers
         // 
         // GET: /HelloWorld/Welcome/ 
 
-    public string Welcome(string name, int ID = 1)
+
+    public string Welcome(CarbonCalculationModel model)
     {
-        return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
+        return HtmlEncoder.Default.Encode($"Distance: {model.Distance}, Transport Type: {model.TransportType}");
     }
     }
 }
