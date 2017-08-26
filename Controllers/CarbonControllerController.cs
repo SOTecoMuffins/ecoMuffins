@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 using ecoMuffins.Models;
+using System.Web.Mvc;
+using ecoMuffins.Services;
 
 namespace ecoMuffins.Controllers
 {
@@ -8,19 +10,21 @@ namespace ecoMuffins.Controllers
     {
         // 
         // GET: /HelloWorld/
-
-        public string Index()
+        // or is it JsonResult<CarbonCalculationModel>
+        public JsonResult Index(CarbonCalculationModel model)
         {
-            return "This is my default action...";
+            CarbonCalculationService service = new CarbonCalculationService();
+            CarbonCalculationReturnModel result = service.CalculateCarbon(model);
+            return Json(result);
         }
 
         // 
         // GET: /HelloWorld/Welcome/ 
 
 
-    public string Welcome(CarbonCalculationModel model)
-    {
-        return HtmlEncoder.Default.Encode($"Distance: {model.Distance}, Transport Type: {model.TransportType}");
-    }
+        public string Welcome(CarbonCalculationModel model)
+        {
+            return HtmlEncoder.Default.Encode($"Distance: {model.Distance}, Transport Type: {model.TransportType}");
+        }
     }
 }
