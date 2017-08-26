@@ -2,7 +2,7 @@ using System;
 
 namespace ecoMuffins.Models
 {
-    public class Carboncalc{
+    public class CarbonCalculation{
         public JourneyType {get; set;}
         public double Distance { get; set; }
     }
@@ -10,6 +10,7 @@ namespace ecoMuffins.Models
         Bus,
         Train,
         Bike,
-        Walk
+        Walk,
+        Car
     }
 }
