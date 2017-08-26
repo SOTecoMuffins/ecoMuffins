@@ -1,0 +1,10 @@
+c:\Users\Hammo\hackfest\ecoMuffins\bin\MCD\Debug\netcoreapp2.0\ecoMuffins.deps.json
+c:\Users\Hammo\hackfest\ecoMuffins\bin\MCD\Debug\netcoreapp2.0\ecoMuffins.runtimeconfig.json
+c:\Users\Hammo\hackfest\ecoMuffins\bin\MCD\Debug\netcoreapp2.0\ecoMuffins.runtimeconfig.dev.json
+c:\Users\Hammo\hackfest\ecoMuffins\bin\MCD\Debug\netcoreapp2.0\ecoMuffins.dll
+c:\Users\Hammo\hackfest\ecoMuffins\bin\MCD\Debug\netcoreapp2.0\ecoMuffins.pdb
+c:\Users\Hammo\hackfest\ecoMuffins\obj\MCD\Debug\netcoreapp2.0\ecoMuffins.csproj.CoreCompileInputs.cache
+c:\Users\Hammo\hackfest\ecoMuffins\obj\MCD\Debug\netcoreapp2.0\ecoMuffins.AssemblyInfoInputs.cache
+c:\Users\Hammo\hackfest\ecoMuffins\obj\MCD\Debug\netcoreapp2.0\ecoMuffins.AssemblyInfo.cs
+c:\Users\Hammo\hackfest\ecoMuffins\obj\MCD\Debug\netcoreapp2.0\ecoMuffins.dll
+c:\Users\Hammo\hackfest\ecoMuffins\obj\MCD\Debug\netcoreapp2.0\ecoMuffins.pdb
