@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Valkyrie\\Desktop\\ecoMuffins\\Backend\\ecoMuffins.csproj",
+      "projectUniqueName": "c:\\Users\\Valkyrie\\Desktop\\ecoMuffins\\ecoMuffins.csproj",
       "projectName": "ecoMuffins",
-      "projectPath": "c:\\Users\\Valkyrie\\Desktop\\ecoMuffins\\Backend\\ecoMuffins.csproj",
+      "projectPath": "c:\\Users\\Valkyrie\\Desktop\\ecoMuffins\\ecoMuffins.csproj",
       "packagesPath": "C:\\Users\\Valkyrie\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Valkyrie\\Desktop\\ecoMuffins\\Backend\\obj\\",
+      "outputPath": "c:\\Users\\Valkyrie\\Desktop\\ecoMuffins\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
