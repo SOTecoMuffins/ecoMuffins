@@ -9,16 +9,7 @@ namespace ecoMuffins.Controllers
         // 
         // GET: /HelloWorld/
 
-        public string Index()
-        {
-            return "This is my default action...";
-        }
-
-        // 
-        // GET: /HelloWorld/Welcome/ 
-
-
-    public string Welcome(CarbonCalculationModel model)
+        public string Index(CarbonCalculationModel model)
     {
         return HtmlEncoder.Default.Encode($"Distance: {model.Distance}, Transport Type: {model.TransportType}");
     }

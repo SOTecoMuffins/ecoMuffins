@@ -12533,28 +12533,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hammo\\.nuget\\packages\\": {},
+    "C:\\Users\\Valkyrie\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hammo\\hackfest\\ecoMuffins\\ecoMuffins.csproj",
+      "projectUniqueName": "c:\\Users\\Valkyrie\\Desktop\\ecoMuffins\\ecoMuffins.csproj",
       "projectName": "ecoMuffins",
-      "projectPath": "C:\\Users\\Hammo\\hackfest\\ecoMuffins\\ecoMuffins.csproj",
-      "packagesPath": "C:\\Users\\Hammo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hammo\\hackfest\\ecoMuffins\\obj\\",
+      "projectPath": "c:\\Users\\Valkyrie\\Desktop\\ecoMuffins\\ecoMuffins.csproj",
+      "packagesPath": "C:\\Users\\Valkyrie\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Valkyrie\\Desktop\\ecoMuffins\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Hammo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Valkyrie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
