@@ -13,5 +13,11 @@ namespace ecoMuffins.Controllers
     {
         return HtmlEncoder.Default.Encode($"Distance: {model.Distance}, Transport Type: {model.TransportType}");
     }
+
+        public string Test()
+    {
+        return "hi";
+    }
+
     }
 }
