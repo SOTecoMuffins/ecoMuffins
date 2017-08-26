@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 using ecoMuffins.Models;
+using System.Web.Mvc;
 
 namespace ecoMuffins.Controllers
 {
@@ -14,10 +15,14 @@ namespace ecoMuffins.Controllers
         return HtmlEncoder.Default.Encode($"Distance: {model.Distance}, Transport Type: {model.TransportType}");
     }
 
-        public string Test()
+        public JsonResult Test()
     {
-        return "hi";
+        var model = new CarbonCalculationModel{
+            Distance = 9901,
+            TransportType = JourneyType.Walk        };
+        return Json(model);
     }
+
 
     }
 }
