@@ -16,12 +16,17 @@ namespace ecoMuffins.Controllers
     }
 
     [HttpPost]
-        public JsonResult Test(CarbonCalculationModel postedModel)
+        public JsonResult Calculate(CarbonCalculationModel postedModel)
     {
         var service = new CarbonCalculationService();
         var returnModel = service.CalculateCarbon(postedModel);
         return Json(returnModel);
     }
-    
+
+    public string test()
+    {
+        return "it works!";
+    }
+
     }
 }
