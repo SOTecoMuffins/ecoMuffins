@@ -6,5 +6,6 @@ namespace ecoMuffins.Models
     {
         public JourneyType TransportType {get; set;}
         public double CarbonKg {get; set;}
+        public int EcoRating {get; set;}
     }
 }
